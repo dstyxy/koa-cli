@@ -1,0 +1,29 @@
+{
+  "name": "koa-cli",
+  "version": "1.0.0",
+  "description": "koa 脚手架",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstyxy/koa-cli.git"
+  },
+  "keywords": [
+    "photo"
+  ],
+  "author": "dstyxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dstyxy/koa-cli/issues"
+  },
+  "homepage": "https://github.com/dstyxy/koa-cli#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
